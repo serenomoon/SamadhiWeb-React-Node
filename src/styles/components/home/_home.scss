@@ -1,0 +1,42 @@
+
+.home__background {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+}
+
+.home__title-text {
+    position: absolute;
+    top: 5%;
+    margin-left: 18vw;
+}
+
+.home__title-logo {
+    display: inline-block;
+    margin-left: -1.5vw;
+}
+
+.home__logo {
+    display: inline;
+    float: left;
+    width: 7vw;
+    filter: invert(100%);
+}
+
+
+.home__title {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    display: inline;
+    margin-top: 4.3vh;
+    margin-left: -1vw;
+    float: right;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.home__text h1 {
+    font-weight: 800;
+    color: $dark-green;
+}

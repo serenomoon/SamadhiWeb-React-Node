@@ -1,0 +1,35 @@
+.contacto__contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+    
+
+
+.contacto__background {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -1;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.contacto__contacto ul {
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    list-style:none;
+}
+
+.contacto__contacto h5 {
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.contacto__form {
+    margin: auto;
+    width: 50%;
+    margin-top: 10vh;
+}

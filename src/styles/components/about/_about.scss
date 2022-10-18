@@ -1,0 +1,66 @@
+.about__clase {
+    margin-top: 10vh;
+    padding: 10vh 0;
+}
+
+.about__text {
+    text-align: center;
+}
+
+.about__h4 {
+    font-size: 1vw;
+    font-family: 'Comfortaa', sans-serif;
+    color: $light-green;
+}
+
+.about__h1 {
+    color: $primary;
+}
+
+.about__hr {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+.about__p {
+    margin: 6vh 0;
+}
+
+.about__tipo-clase h1{
+    color: $primary;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.about__col{
+    display: flex;
+    justify-content: center;
+}
+
+.about__card {
+    margin-bottom: 10vh;
+    border: none;
+}
+
+.about__card h5{
+    text-align: center;
+}
+
+.about__img-card {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    cursor:pointer;
+    transition: transform .4s ease;
+}
+
+.about__img-card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+

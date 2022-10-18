@@ -1,0 +1,49 @@
+.clases__clase {
+    margin-top: 10vh;
+    padding: 10vh 0;
+}
+
+.clases__text {
+    text-align: center;
+}
+
+.clases__h4 {
+    font-size: 1vw;
+    font-family: 'Comfortaa', sans-serif;
+    color: $light-green;
+}
+
+.clases__h1 {
+    color: $primary;
+}
+
+.clases__hr {
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+.clases__p {
+    margin: 6vh 0;
+}
+
+.clases__col{
+    display: flex;
+    justify-content: center;
+}
+
+.clases__card {
+    margin-bottom: 10vh;
+}
+
+.clases__card img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.clases__card button {
+    display: block;
+    margin: 0 auto;
+    padding: 1vh 2vw;
+}

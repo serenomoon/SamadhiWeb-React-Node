@@ -1,0 +1,1 @@
+export const yogaImages = require.context('../assets', true);

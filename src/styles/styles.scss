@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Comfortaa:wght@300;400&family=Open+Sans:wght@300;400;600;800&display=swap');
+@import './base/settings';
+@import './base/base';
+
+
+@import './components/button';
+@import './components/links';
+
+@import './components/ui/navbar';
+@import './components/ui/loading';
+
+@import './components/login/auth';
+
+@import './components/home/home';
+@import './components/home/clasescall';
+@import './components/home/foot';
+@import './components/home/contacto';
+
+@import './components/noticias/noticiascard';
+@import './components/noticias/noticias';
+
+@import './components/about/about';
+@import './components/about/facilitador';
+
+@import './components/clases/clases';
+@import './components/clases/clasesmas';
+
+@import './components/private/noticias/datanoticias';
+
+@import './components/private/alumnos/dataalumnos';

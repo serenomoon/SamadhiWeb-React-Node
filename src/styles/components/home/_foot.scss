@@ -1,0 +1,18 @@
+
+.foot__footer{
+    margin-top: 15vh;
+    background-color: $primary;
+}
+
+.foot__datos {
+    display: flex;
+    justify-content: space-between;
+    padding:  1vh 3vw;
+}
+
+.foot__datos li {
+    font-weight: 300;
+    font-size: 1.2vw;
+    list-style:none;
+    text-align: left;
+}

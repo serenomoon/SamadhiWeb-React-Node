@@ -1,0 +1,84 @@
+section{
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section .container{
+  margin: 50px 100px;
+}
+
+section .text-container{
+   display: flex;
+}
+
+.cardnews__left-textbox {
+  width: 20vw;
+  word-break: break-all;
+}
+
+section .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  background: rgb(47,158,89);
+  background: linear-gradient(146deg, rgba(47,158,89,1) 0%, rgba(44,148,72,1) 0%, rgba(134,233,181,1) 100%);
+  border-radius: 5px 5px 30px 5px;
+}
+section .text-container .text-box h3{
+  color: #e0ffff;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+section .text-container .text-box span{
+  color: #e0ffff;
+  font-size: 10px;
+  text-align: center;
+  }
+
+section .text-container .text-box p{
+  color: #e0ffff;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+  }
+
+
+@media (max-width: 900px){
+  section .text-container{
+    flex-direction: column;
+  }
+}
+
+
+.cardnews__reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.cardnews__reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.cardnews__btn {
+  display: block;
+  margin: auto;
+}
+
+.cardnews__img {
+    display: block;
+    margin: auto;
+    width: 50vw;
+    border-radius: 5px 5px 30px 5px;
+}
+

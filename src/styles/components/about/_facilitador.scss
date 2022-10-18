@@ -1,0 +1,40 @@
+.facilitador__facilitador {
+    margin: 10vh;
+    // display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.facilitador__title {
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.facilitador__facilitador h1 {
+    color: $primary;
+}
+
+.facilitador__facilitador span {
+    color: $light-green;
+}
+
+.facilitador__row .col-6 {
+    animation-duration: 1.5s;
+}
+
+.facilitador__col-img {
+    margin: auto;
+}
+
+.facilitador__col-img img{
+    width: 30vw;
+    
+}
+
+.facilitador__col-title hr{
+    display: inline-block;
+    width: 90%;
+    margin: 5px 10px;
+    border-top: 1px solid $green;
+}

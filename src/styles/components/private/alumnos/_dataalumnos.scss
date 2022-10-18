@@ -1,0 +1,18 @@
+.dataalumnos__panel-title {
+    color: $primary;
+}
+
+.dataalumnos__list-group{
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+// .dataalumnos__col {
+//     display: flex;
+//     justify-content: center;
+// }

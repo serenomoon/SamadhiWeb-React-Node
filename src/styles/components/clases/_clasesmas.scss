@@ -1,0 +1,35 @@
+
+.clasesmas__new img {
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.116);
+    position: relative;
+    z-index: 1;
+}
+
+.clasesmas__new h1{
+    font-weight: 600;
+    color: $primary;
+    margin-bottom: 5vh;
+}
+
+.clasesmas__new p{
+    color: $dark-grey;
+}
+
+.clasesmas__text {
+    background: rgb(123,247,182);
+    background: linear-gradient(146deg, rgba(123,247,182,1) 0%, rgba(189,254,220,1) 50%, rgba(220,244,231,1) 100%);
+    padding: 150px 3vw 10vh 3vw;
+    border-radius: 5px 5px 30px 5px;
+    margin-top:-100px;
+}
+
+.clasesmas__btn {
+    color: $primary;
+    background-color: transparent;
+    float: right;
+    font-size: 1vw;
+
+    &:hover {
+        color: darken($color: $primary, $amount: 10);
+    }
+}

@@ -1,0 +1,65 @@
+.clasescall__back {
+    // background-color: lighten($color: $primary, $amount: 10);
+    padding: 12vh 0;
+    // box-shadow: 5px 30px 40px rgba(0, 0, 0, 0.24);
+}
+
+.clasescall__row1 {
+    padding: 10vw 0;
+}
+
+
+.clasescall__divimg {
+    display: flex;
+    justify-content: center;
+}
+
+.clasescall__container .row {
+    padding-bottom: 10vh;
+}
+
+.clasescall__container .col-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.clasescall__title, .clases__text {
+    margin-bottom: 5vh;
+    padding-right: 3vw;
+}
+
+.clasescall__title {
+    font-weight: 600;
+    color: $primary;
+}
+
+.clasescall__text {
+    color: $dark-grey;
+    font-size: 1.3vw;
+}
+
+.clasescall__img {
+    width: 30vw;
+}
+
+.clasescall__card {
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.116);
+    text-align: center;
+}
+
+// .clasescall__img-card {
+//     filter: brightness(0.9) invert(.7) sepia(.5) hue-rotate(70deg) saturate(200%);
+// }
+
+// .clasescall__card-title {
+
+// }
+
+// .clasescall__card-text {
+
+// }
+
+.clasescall__btn {
+    display: block;
+    text-decoration: none;
+}
